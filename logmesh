@@ -1,0 +1,1090 @@
+
+setLogLevel: ERROR | MESH_STATUS | CONNECTION | SYNC | COMMUNICATION | GENERAL | MSG_TYPES | REMOTE | DEBUG |
+GENERAL: encodeNodeId():
+GENERAL: tcpServerInit():
+My AP IP is 10.12.45.1
+GENERAL: onNewConnection():
+GENERAL: onDroppedConnection():
+My Local IP is 
+mDNS responder started
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"7:0"}
+{"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"7:0"}
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"7:0"}
+{"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"7:0"}
+CONNECTION: stationScan(): cz_FL_24
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"7:0"}
+{"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"7:0"}
+CONNECTION: eventScanDoneHandler: SYSTEM_EVENT_SCAN_DONE
+CONNECTION: scanComplete(): Scan finished
+CONNECTION: scanComplete():-- > Cleared old APs.
+CONNECTION: scanComplete(): num = 27
+CONNECTION: 	found : cz_FL_24, -41dBm
+CONNECTION: 	Found 1 nodes
+GENERAL: encodeNodeId():
+GENERAL: encodeNodeId():
+CONNECTION: connectToAP(): Best AP is 1283660800<---
+CONNECTION: connectToAP(): Trying to connect, scan rate set to 4*normal
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"7:0"}
+{"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"7:0"}
+CONNECTION: eventSTAGotIPHandler: SYSTEM_EVENT_STA_GOT_IP
+GENERAL: tcpConnect():
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"16:25"}
+{"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"16:25"}
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"16:25"}
+{"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"16:25"}
+NOT_FOUND: GET http://esp32local/favicon.ico
+_HEADER[Host]: esp32local
+_HEADER[Connection]: keep-alive
+_HEADER[User-Agent]: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.75 Safari/537.36
+_HEADER[Accept]: image/webp,image/apng,image/*,*/*;q=0.8
+_HEADER[Referer]: http://esp32local/
+_HEADER[Accept-Encoding]: gzip, deflate
+_HEADER[Accept-Language]: en-US,en;q=0.9,th;q=0.8
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"16:25"}
+{"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"16:25"}
+3220180013
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"16:25"}
+{"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"16:25"}
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"16:25"}
+{"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"16:25"}
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"16:25"}
+{"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"16:25"}
+dhcps: send_nak>>udp_sendto result 0
+dhcps: send_offer>>udp_sendto result 0
+CONNECTION: New AP connection incoming
+CONNECTION: meshConnectedCb(): we are AP
+COMMUNICATION: onData(): fromId=0
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 0: {"nodeId":3298208357,"type":5,"dest":0,"from":3298208357}
+SYNC: handleNodeSync(): with 0
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 207652
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+CONNECTION: newConnectionTask():
+CONNECTION: newConnectionTask(): adding 3298208357 now= 46917813
+--> startHere: New Connection, nodeId = 3298208357
+COMMUNICATION: onData(): fromId=3298208357
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 3298208357: {"type":4,"dest":3220180013,"from":3298208357,"msg":{"type":0}}
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 207532
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=3298208357
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 3298208357: {"type":4,"dest":3220180013,"from":3298208357,"msg":{"type":2,"t0":46944485,"t1":8620987,"t2":8621355}}
+GENERAL: sentBufferTask()
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 207428
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=3298208357
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 3298208357: {"type":4,"dest":3220180013,"from":3298208357,"msg":{"type":2,"t0":8845032,"t1":8937849,"t2":8938174}}
+GENERAL: sentBufferTask()
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 209000
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=3298208357
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 3298208357: {"type":4,"dest":3220180013,"from":3298208357,"msg":{"type":2,"t0":9198920,"t1":9158097,"t2":9158428}}
+GENERAL: sentBufferTask()
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 209000
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=3298208357
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 3298208357: {"type":4,"dest":3220180013,"from":3298208357,"msg":{"type":2,"t0":9376707,"t1":9382088,"t2":9382419}}
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+dhcps: send_nak>>udp_sendto result 0
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+dhcps: send_nak>>udp_sendto result 0
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":2,"Times":"16:26"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 203348
+{"topic":"MyServer","nodeId":3220180013,"nodeList":2,"Times":"16:26"}
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+dhcps: send_offer>>udp_sendto result 0
+dhcps: send_offer>>udp_sendto result 0
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+dhcps: send_offer>>udp_sendto result 0
+GENERAL: readBufferTask()
+COMMUNICATION: onData(): fromId=3298208357
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 3298208357: {"nodeId":3298208357,"subs":[{"nodeId":3220160717}],"type":5,"dest":3220180013,"from":3298208357}
+SYNC: handleNodeSync(): with 3298208357
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 199064
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+CONNECTION: stationScan(): cz_FL_24
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+CONNECTION: New AP connection incoming
+CONNECTION: meshConnectedCb(): we are AP
+COMMUNICATION: onData(): fromId=0
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 0: {"nodeId":309692053,"type":5,"dest":0,"from":309692053}
+SYNC: handleNodeSync(): with 0
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 203952
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+SYNC: nodeSyncTask(): request with 3298208357
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 204112
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+CONNECTION: newConnectionTask():
+CONNECTION: newConnectionTask(): adding 309692053 now= 16953169
+--> startHere: New Connection, nodeId = 309692053
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":4,"Times":"16:26"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 201640
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 201460
+{"topic":"MyServer","nodeId":3220180013,"nodeList":4,"Times":"16:26"}
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=3298208357
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 3298208357: {"nodeId":3298208357,"subs":[{"nodeId":3220160717}],"type":6,"dest":3220180013,"from":3298208357}
+SYNC: handleNodeSync(): with 3298208357
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+CONNECTION: eventScanDoneHandler: SYSTEM_EVENT_SCAN_DONE
+CONNECTION: scanComplete(): Scan finished
+CONNECTION: scanComplete():-- > Cleared old APs.
+CONNECTION: scanComplete(): num = 29
+CONNECTION: 	found : cz_FL_24, -32dBm
+CONNECTION: 	Found 1 nodes
+GENERAL: encodeNodeId():
+CONNECTION: connectToAP(): Already connected using manual connection. Disabling scanning.
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+3220180013
+309692053
+3298208357
+0
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":4,"Times":"16:26"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 204108
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 203928
+{"topic":"MyServer","nodeId":3220180013,"nodeList":4,"Times":"16:26"}
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+nod3
+Choosen Node = 0
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+SYNC: nodeSyncTask(): request with 309692053
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 205148
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 203600
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=309692053
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309692053: {"type":4,"dest":3220180013,"from":309692053,"msg":{"type":1,"t0":26928356}}
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 201568
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+COMMUNICATION: onData(): fromId=309692053
+COMMUNICATION: onData(): fromId=309692053
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309692053: {"nodeId":309692053,"type":6,"dest":3220180013,"from":309692053}
+SYNC: handleNodeSync(): with 309692053
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309692053: {"type":4,"dest":3220180013,"from":309692053,"msg":{"type":1,"t0":26936191}}
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 203444
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+3220180013
+309692053
+3298208357
+0
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=309692053
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309692053: {"type":4,"dest":3220180013,"from":309692053,"msg":{"type":1,"t0":27223675}}
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 203444
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=309692053
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309692053: {"type":4,"dest":3220180013,"from":309692053,"msg":{"type":1,"t0":27425171}}
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 203448
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":4,"Times":"16:26"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 203768
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 203588
+{"topic":"MyServer","nodeId":3220180013,"nodeList":4,"Times":"16:26"}
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+nod2
+Choosen Node = 3298208357
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":4,"Times":"16:26"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 203768
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 203588
+{"topic":"MyServer","nodeId":3220180013,"nodeList":4,"Times":"16:26"}
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: sendSingle(): dest=3298208357 msg={"CMD":"ServerCMD","Status":"ControlLAMP","ARGname":"LED1arg","ARGstat":"true"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 201300
+COMMUNICATION: sendSingle(): dest=3298208357 msg={"CMD":"ServerCMD","Status":"Callstatus"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 2 , FreeMem: 201348
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=3298208357
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 3298208357: {"type":9,"dest":3220180013,"from":3298208357,"msg":"{\"topic\":\"MyClient\",\"nodeId\":3298208357,\"Statusled0\":\"false\",\"Statusled1\":\"true\",\"SendOK\":\Server: Received from 3298208357 msg={"topic":"MyClient","nodeId":3298208357,"Statusled0":"false","Statusled1":"true","SendOK":"1"}
+GENERAL: readBufferTask()
+COMMUNICATION: sendSingle(): dest=3298208357 msg={"CMD":"ServerCMD","Status":"ControlLAMP","ARGname":"LED1arg","ARGstat":"false"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 201168
+COMMUNICATION: sendSingle(): dest=3298208357 msg={"CMD":"ServerCMD","Status":"Callstatus"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 2 , FreeMem: 201140
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=3298208357
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 3298208357: {"type":9,"dest":3220180013,"from":3298208357,"msg":"{\"topic\":\"MyClient\",\"nodeId\":3298208357,\"Statusled0\":\"false\",\"Statusled1\":\"false\",\"SendOK\":Server: Received from 3298208357 msg={"topic":"MyClient","nodeId":3298208357,"Statusled0":"false","Statusled1":"false","SendOK":"1"}
+GENERAL: sentBufferTask()
+3220180013
+309692053
+3298208357
+0
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+nod1
+Choosen Node = 309692053
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: sendSingle(): dest=309692053 msg={"CMD":"ServerCMD","Status":"ControlLAMP","ARGname":"LED1arg","ARGstat":"true"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 201236
+COMMUNICATION: sendSingle(): dest=309692053 msg={"CMD":"ServerCMD","Status":"Callstatus"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 2 , FreeMem: 201284
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=309692053
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309692053: {"type":9,"dest":3220180013,"from":309692053,"msg":"{\"topic\":\"MyClient\",\"nodeId\":309692053,\"Statusled0\":\"false\",\"Statusled1\":\"true\",\"SendOK\":\"1\Server: Received from 309692053 msg={"topic":"MyClient","nodeId":309692053,"Statusled0":"false","Statusled1":"true","SendOK":"1"}
+GENERAL: readBufferTask()
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":4,"Times":"16:26"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 203608
+COMMUNICATION: addMessgle(): dest=309692053 msg={"CMD":"ServerCMD","Status":"CCOMMUNICATION: {"tsendSingle(): dest=309692053 msg={"CMD":"ServerCMD","Status":"ControlLAMP","ARGname":"LED1arg","ARGstat":"false"}
+opic":"MyServer","nodeId"COMMUNICATION: :3220180013addMessage(): Package sent to queue end -> 2 , FreeMem: 199556
+,"nodeLCOMMUNICATION: sendSingle(): dest=309692053 msg={"CMD":"ServerCMD","Status":"Callstatus"}
+ist":4,"TimeCOMMUNICATION: s":"addMessage(): Package sent to queue end -> 3 , FreeMem: 199668
+16:26"}
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=309692053
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309692053: {"type":9,"dest":3220180013,"from":309692053,"msg":"{\"topic\":\"MyClient\",\"nodeId\":309692053,\"Statusled0\":\"false\",\"Statusled1\":\"false\",\"SendOK\":\"1Server: Received from 309692053 msg={"topic":"MyClient","nodeId":309692053,"Statusled0":"false","Statusled1":"false","SendOK":"1"}
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+3220180013
+309692053
+3298208357
+0
+GENERAL: readBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+nod3
+Choosen Node = 0
+GENERAL: readBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+COMMUNICATION: sendSingle(): dest=0 msg={"CMD":"ServerCMD","Status":"ControlLAMP","ARGname":"LED1arg","ARGstat":"true"}
+COMMUNICATION: sendSingle(): dest=0 msg={"CMD":"ServerCMD","Status":"Callstatus"}
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":4,"Times":"16:26"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 203608
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 203432
+{"topic":"MyServer","nodeId":3220180013,"nodeList":4,"Times":"16:26"}
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+[Done] Closed the serial port 
+
+[Starting] Opening the serial port - COM15
+[Info] Opened the serial port - COM15
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":4,"Times":"16:40"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 206392
+{"topic":"MyServer","nodeId":3220180013,"nodeList":4,"Times":"16:40"}
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":4,"Times":"16:40"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 206392
+{"topic":"MyServer","nodeId":3220180013,"nodeList":4,"Times":"16:40"}
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+cz_FL_24
+024769918
+
+setLogLevel: ERROR | MESH_STATUS | CONNECTION | SYNC | COMMUNICATION | GENERAL | MSG_TYPES | REMOTE | DEBUG |
+GENERAL: encodeNodeId():
+GENERAL: tcpServerInit():
+My AP IP is 10.12.45.1
+GENERAL: onNewConnection():
+GENERAL: onDroppedConnection():
+My Local IP is 
+mDNS responder started
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"7:0"}
+{"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"7:0"}
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"7:0"}
+{"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"7:0"}
+CONNECTION: stationScan(): cz_FL_24
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"7:0"}
+{"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"7:0"}
+CONNECTION: eventScanDoneHandler: SYSTEM_EVENT_SCAN_DONE
+CONNECTION: scanComplete(): Scan finished
+CONNECTION: scanComplete():-- > Cleared old APs.
+CONNECTION: scanComplete(): num = 28
+CONNECTION: 	found : cz_FL_24, -42dBm
+CONNECTION: 	Found 1 nodes
+GENERAL: encodeNodeId():
+GENERAL: encodeNodeId():
+CONNECTION: connectToAP(): Best AP is 1283660800<---
+CONNECTION: connectToAP(): Trying to connect, scan rate set to 4*normal
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"7:0"}
+{"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"7:0"}
+CONNECTION: eventSTAGotIPHandler: SYSTEM_EVENT_STA_GOT_IP
+GENERAL: tcpConnect():
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"16:41"}
+{"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"16:41"}
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"16:41"}
+{"topic":"MyServer","nodeId":3220180013,"nodeList":1,"Times":"16:41"}
+dhcps: send_nak>>udp_sendto result 0
+dhcps: send_offer>>udp_sendto result 0
+CONNECTION: New AP connection incoming
+CONNECTION: meshConnectedCb(): we are AP
+COMMUNICATION: onData(): fromId=0
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 0: {"nodeId":309501253,"type":5,"dest":0,"from":309501253}
+SYNC: handleNodeSync(): with 0
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 207200
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+CONNECTION: newConnectionTask():
+CONNECTION: newConnectionTask(): adding 309501253 now= 29375588
+--> startHere: New Connection, nodeId = 309501253
+COMMUNICATION: onData(): fromId=309501253
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309501253: {"type":4,"dest":3220180013,"from":309501253,"msg":{"type":1,"t0":7572437}}
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 206900
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":2,"Times":"16:41"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 206908
+{"topic":"MyServer","nodeId":3220180013,"nodeList":2,"Times":"16:41"}
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=309501253
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309501253: {"type":4,"dest":3220180013,"from":309501253,"msg":{"type":1,"t0":29618115}}
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 206504
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=309501253
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309501253: {"type":4,"dest":3220180013,"from":309501253,"msg":{"type":1,"t0":32017236}}
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 206572
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=309501253
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309501253: {"type":4,"dest":3220180013,"from":309501253,"msg":{"type":1,"t0":31509769}}
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 206576
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+COMMUNICATION: onData(): fromId=309501253
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309501253: {"nodeId":309501253,"subs":[{"nodeId":309692053}],"type":5,"dest":3220180013,"from":309501253}
+SYNC: handleNodeSync(): with 309501253
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 206464
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=309501253
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309501253: {"nodeId":309501253,"subs":[{"nodeId":309692053},{"nodeId":3298208357}],"type":5,"dest":3220180013,"from":309501253}
+SYNC: handleNodeSync(): with 309501253
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 206132
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":4,"Times":"16:41"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 206872
+{"topic":"MyServer","nodeId":3220180013,"nodeList":4,"Times":"16:41"}
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=309501253
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309501253: {"nodeId":309501253,"subs":[{"nodeId":309692053},{"nodeId":3298208357,"subs":[{"nodeId":3220160717}]}],"type":5,"dest":3220180013,"from":309501253}
+SYNC: handleNodeSync(): with 309501253
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 205720
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+SYNC: nodeSyncTask(): request with 309501253
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 208404
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=309501253
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309501253: {"nodeId":309501253,"subs":[{"nodeId":309692053},{"nodeId":3298208357,"subs":[{"nodeId":3220160717}]}],"type":6,"dest":3220180013,"from":309501253}
+SYNC: handleNodeSync(): with 309501253
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:41"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 206796
+{"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:41"}
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:41"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 206796
+{"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:41"}
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:41"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 206796
+{"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:41"}
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+CONNECTION: stationScan(): cz_FL_24
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:41"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 206384
+{"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:41"}
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+CONNECTION: eventScanDoneHandler: SYSTEM_EVENT_SCAN_DONE
+CONNECTION: scanComplete(): Scan finished
+CONNECTION: scanComplete():-- > Cleared old APs.
+CONNECTION: scanComplete(): num = 29
+CONNECTION: 	found : cz_FL_24, -39dBm
+CONNECTION: 	Found 1 nodes
+GENERAL: sentBufferTask()
+GENERAL: encodeNodeId():
+CONNECTION: connectToAP(): Already connected using manual connection. Disabling scanning.
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:41"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 203188
+{"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:41"}
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:41"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 206484
+{"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:41"}
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:42"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 206484
+{"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:42"}
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+3220180013
+309501253
+0
+0
+0
+GENERAL: sentBufferTask()
+nod1
+Choosen Node = 309501253
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+3220180013
+309501253
+0
+0
+0
+GENERAL: readBufferTask()
+nod2
+Choosen Node = 0
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+3220180013
+309501253
+0
+0
+0
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:42"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 206484
+{"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:42"}
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+nod3
+Choosen Node = 0
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+3220180013
+309501253
+0
+0
+0
+GENERAL: readBufferTask()
+nod4
+Choosen Node = 0
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+3220180013
+309501253
+0
+0
+0
+GENERAL: sentBufferTask()
+nod1
+Choosen Node = 309501253
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: sendSingle(): dest=309501253 msg={"CMD":"ServerCMD","Status":"ControlLAMP","ARGname":"LED1arg","ARGstat":"true"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 204016
+COMMUNICATION: sendSingle(): dest=309501253 msg={"CMD":"ServerCMD","Status":"Callstatus"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 2 , FreeMem: 204064
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=309501253
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309501253: {"type":9,"dest":3220180013,"from":309501253,"msg":"{\"topic\":\"MyClient\",\"nodeId\":309501253,\"Statusled0\":\"false\",\"Statusled1\":\"true\",\"SendOK\":\"1\Server: Received from 309501253 msg={"topic":"MyClient","nodeId":309501253,"Statusled0":"false","Statusled1":"true","SendOK":"1"}
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:42"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 206464
+{"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:42"}
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: sendSingle(): dest=309501253 msg={"CMD":"ServerCMD","Status":"ControlLAMP","ARGname":"LED1arg","ARGstat":"false"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 203928
+COMMUNICATION: sendSingle(): dest=309501253 msg={"CMD":"ServerCMD","Status":"Callstatus"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 2 , FreeMem: 204036
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=309501253
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309501253: {"type":9,"dest":3220180013,"from":309501253,"msg":"{\"topic\":\"MyClient\",\"nodeId\":309501253,\"Statusled0\":\"false\",\"Statusled1\":\"false\",\"SendOK\":\"1Server: Received from 309501253 msg={"topic":"MyClient","nodeId":309501253,"Statusled0":"false","Statusled1":"false","SendOK":"1"}
+COMMUNICATION: sendSingle(): dest=309501253 msg={"CMD":"ServerCMD","Status":"ControlLAMP","ARGname":"LED0arg","ARGstat":"true"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 203996
+COMMUNICATION: sendSingle(): dest=309501253 msg={"CMD":"ServerCMD","Status":"Callstatus"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 2 , FreeMem: 204044
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=309501253
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309501253: {"type":9,"dest":3220180013,"from":309501253,"msg":"{\"topic\":\"MyClient\",\"nodeId\":309501253,\"Statusled0\":\"true\",\"Statusled1\":\"false\",\"SendOK\":\"1\Server: Received from 309501253 msg={"topic":"MyClient","nodeId":309501253,"Statusled0":"true","Statusled1":"false","SendOK":"1"}
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+COMMUNICATION: sendSingle(): dest=309501253 msg={"CMD":"ServerCMD","Status":"ControlLAMP","ARGname":"LED0arg","ARGstat":"false"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 203916
+COMMUNICATION: sendSingle(): dest=309501253 msg={"CMD":"ServerCMD","Status":"Callstatus"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 2 , FreeMem: 204024
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=309501253
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309501253: {"type":9,"dest":3220180013,"from":309501253,"msg":"{\"topic\":\"MyClient\",\"nodeId\":309501253,\"Statusled0\":\"false\",\"Statusled1\":\"false\",\"SendOK\":\"1Server: Received from 309501253 msg={"topic":"MyClient","nodeId":309501253,"Statusled0":"false","Statusled1":"false","SendOK":"1"}
+COMMUNICATION: sendSingle(): dest=309501253 msg={"CMD":"ServerCMD","Status":"ControlLAMP","ARGname":"LED0arg","ARGstat":"true"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 203984
+COMMUNICATION: sendSingle(): dest=309501253 msg={"CMD":"ServerCMD","Status":"Callstatus"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 2 , FreeMem: 204032
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=309501253
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309501253: {"type":9,"dest":3220180013,"from":309501253,"msg":"{\"topic\":\"MyClient\",\"nodeId\":309501253,\"Statusled0\":\"true\",\"Statusled1\":\"false\",\"SendOK\":\"1\Server: Received from 309501253 msg={"topic":"MyClient","nodeId":309501253,"Statusled0":"true","Statusled1":"false","SendOK":"1"}
+COMMUNICATION: sendSingle(): dest=309501253 msg={"CMD":"ServerCMD","Status":"ControlLAMP","ARGname":"LED0arg","ARGstat":"false"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 203936
+COMMUNICATION: sendSingle(): dest=309501253 msg={"CMD":"ServerCMD","Status":"Callstatus"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 2 , FreeMem: 204048
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=309501253
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309501253: {"type":9,"dest":3220180013,"from":309501253,"msg":"{\"topic\":\"MyClient\",\"nodeId\":309501253,\"Statusled0\":\"false\",\"Statusled1\":\"false\",\"SendOK\":\"1Server: Received from 309501253 msg={"topic":"MyClient","nodeId":309501253,"Statusled0":"false","Statusled1":"false","SendOK":"1"}
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:42"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 206464
+{"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:42"}
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:42"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 206464
+{"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:42"}
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+GENERAL: sentBufferTask()
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 208012
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=309501253
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309501253: {"type":4,"dest":3220180013,"from":309501253,"msg":{"type":0}}
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 205716
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=309501253
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309501253: {"type":4,"dest":3220180013,"from":309501253,"msg":{"type":2,"t0":91550627,"t1":91567546,"t2":91567866}}
+GENERAL: sentBufferTask()
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 208012
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=309501253
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309501253: {"type":4,"dest":3220180013,"from":309501253,"msg":{"type":2,"t0":91791304,"t1":91832785,"t2":91833105}}
+GENERAL: sentBufferTask()
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 208012
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=309501253
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309501253: {"type":4,"dest":3220180013,"from":309501253,"msg":{"type":2,"t0":92067457,"t1":92046934,"t2":92047254}}
+GENERAL: sentBufferTask()
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 208012
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+GENERAL: sentBufferTask()
+COMMUNICATION: onData(): fromId=309501253
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309501253: {"type":4,"dest":3220180013,"from":309501253,"msg":{"type":2,"t0":92266543,"t1":92271997,"t2":92272318}}
+
+[Done] Closed the serial port 
+
+[Starting] Opening the serial port - COM15
+[Info] Opened the serial port - COM15
+GENERAL: sentBufferTask()
+GENERAL: readBufferTask()
+COMMUNICATION: onData(): fromId=309501253
+GENERAL: readBufferTask()
+COMMUNICATION: routePackage(): Recvd from 309501253: {"nodeId":309501253,"subs":[{"nodeId":309692053},{"nodeId":3298208357,"subs":[{"nodeId":3220160717}]}],"type":5,"dest":3220180013,"from":309501253}
+SYNC: handleNodeSync(): with 309501253
+COMMUNICATION: addMessage(): Package sent to queue beginning -> 1 , FreeMem: 205356
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:42"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 206464
+{"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:42"}
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+
+COMMUNICATION: sendBroadcast(): msg={"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:42"}
+COMMUNICATION: addMessage(): Package sent to queue end -> 1 , FreeMem: 206464
+{"topic":"MyServer","nodeId":3220180013,"nodeList":5,"Times":"16:42"}
+GENERAL: sentBufferTask()
+COMMUNICATION: writeNext(): Package sent
+
+[Done] Closed the serial port 
+
+
+
+#include <painlessMesh.h>
+#include <painlessMeshSTA.h>
+#include <painlessMeshSync.h>
+#include <painlessScheduler.h>
+#include <SimpleList.h>
+
+painlessMesh mesh;
+bool calc_delay = false;
+SimpleList<uint32_t> nodes;
+
+//Servo Identifiers
+#define SERVO_TOP_LEFT      15774220      //350 STOP    NEEDS REVISITED
+#define SERVO_TOP_CENTER    15711956      //343 STOP
+#define SERVO_TOP_RIGHT     15772684      //353 STOP
+#define SERVO_BOTTOM_LEFT   15710311      //346 STOP
+#define SERVO_BOTTOM_CENTER 15712451      //353 STOP
+#define SERVO_BOTTOM_RIGHT  15773974      //360 STOP
+
+int incomingByte = 0;   // for incoming serial data
+String incomingPackage = "";
+String package = "";
+String msg = "";
+uint32_t dest;
+
+//#include <easyMesh.h>
+#include <string>
+
+// some gpio pin that is connected to an LED...
+// on my rig, this is 5, change to the right number of your LED.
+#define   LED             0       // GPIO number of connected LED
+
+#define   BLINK_PERIOD    1000000 // microseconds until cycle repeat
+#define   BLINK_DURATION  100000  // microseconds LED is on for
+
+#define   MESH_SSID       "newsies"
+#define   MESH_PASSWORD   "dreamers"
+#define   MESH_PORT       5555
+
+//easyMesh  mesh;
+
+
+uint32_t sendMessageTime = 0;
+
+
+void setup() {
+  Serial.begin(115200);
+   
+  pinMode( LED, OUTPUT );
+
+//mesh.setDebugMsgTypes( ERROR | MESH_STATUS | CONNECTION | SYNC | COMMUNICATION | GENERAL | MSG_TYPES | REMOTE ); // all types on
+  mesh.setDebugMsgTypes( ERROR | STARTUP );  // set before init() so that you can see startup messages
+
+  mesh.init(MESH_SSID, MESH_PASSWORD, MESH_PORT);
+  mesh.onReceive(&receivedCallback);
+  mesh.onNewConnection(&newConnectionCallback);
+  mesh.onChangedConnections(&changedConnectionCallback);
+  mesh.onNodeTimeAdjusted(&nodeTimeAdjustedCallback);
+  mesh.onNodeDelayReceived(&delayReceivedCallback);
+
+  //mesh.scheduler.addTask( taskSendMessage );
+  //taskSendMessage.enable() ;
+
+  randomSeed(analogRead(A0));
+}
+
+
+void loop() {
+  mesh.update();
+ 
+  if (Serial.available() > 0) {
+      // read the incoming byte:
+      incomingPackage = Serial.readStringUntil('\n');
+
+      Serial.print(incomingPackage);
+
+      yield();
+
+      mesh.sendBroadcast(incomingPackage);
+  }
+}
+
+
+
+void receivedCallback( uint32_t from, String &msg ) {
+  Serial.printf("startHere: Received from %d msg=%s\n", from, msg.c_str());
+}
+
+void newConnectionCallback( uint32_t nodeId ) {
+  Serial.printf("startHere: New Connection, nodeId = %u\n", nodeId);
+}
+
+
+void changedConnectionCallback() {
+  Serial.printf("Changed connections %s\n", mesh.subConnectionJson().c_str());
+
+  nodes = mesh.getNodeList();
+
+  Serial.printf("Num nodes: %d\n", nodes.size());
+  Serial.printf("Connection list:");
+
+  SimpleList<uint32_t>::iterator node = nodes.begin();
+  while (node != nodes.end()) {
+    Serial.printf(" %u", *node);
+    node++;
+  }
+  Serial.println();
+  calc_delay = true;
+}
+
+void nodeTimeAdjustedCallback(int32_t offset) {
+  Serial.printf("Adjusted time %u. Offset = %d\n", mesh.getNodeTime(), offset);
+}
+
+void delayReceivedCallback(uint32_t from, int32_t delay) {
+  Serial.printf("Delay to node %u is %d us\n", from, delay);
+}

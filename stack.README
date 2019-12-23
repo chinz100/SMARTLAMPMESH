@@ -1,0 +1,19 @@
+https://playground.arduino.cc/Code/StackArray/
+
+/*
+int n = 0;
+ while (!addstk.isEmpty ())
+  {
+    n++;
+    MynodeId[n] = addstk.peek();
+     stack.push(MynodeId[n]);
+    addstk.pop();
+   
+   //Serial.println("stack is "+String(MynodeId[n]));
+  }
+    while (!stack.isEmpty ())
+  {
+    addstk.push(stack.pop());
+    //  Serial.println("ADD is "+String(addstk.peek()));
+  }
+*/
